@@ -1,0 +1,15 @@
+name: student0
+device: cuda
+num_epochs: 30
+data_dir: /quyennt/sexy/data/data_0
+data_name: data_0
+batch_size: 32
+model_name: efficientnet_b1
+model_path: ckps/student0_efficientnet_b1_ckps_0.962.pt
+model_resume: False
+run_name: TRAIN_STUDENT0_SEXY
+use_mlflow: True
+optimizer: Adan
+loss: LabelSmoothing
+lr: 0.001
+smoothing_value: 0.1

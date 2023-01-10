@@ -1,0 +1,11 @@
+name: teacher
+device: cuda
+num_epochs: 30
+data_dir: /quyennt/sexy/data/data_1
+data_name: data_1
+batch_size: 32
+model_name: efficientnet_b0
+model_path: ./ckps/teacher_efficientnet_b0_ckps_0.913.pt
+model_resume: True
+run_name: TRAIN_TEACHER_SEXY
+use_mlflow: True

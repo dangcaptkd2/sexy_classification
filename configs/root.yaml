@@ -1,0 +1,11 @@
+name: root
+device: cuda
+num_epochs: 30
+data_dir: /quyennt/sexy/data/data_0
+data_name: data_0
+batch_size: 32
+model_name: efficientnet_b0
+model_path: ./ckps/root_efficientnet_b0_ckps_0.972.pt
+model_resume: False
+run_name: TRAIN_ROOT_SEXY_3
+use_mlflow: True
